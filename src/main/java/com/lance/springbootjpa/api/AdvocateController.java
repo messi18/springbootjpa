@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/advocate")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("*")
 public class AdvocateController {
     @Autowired
     private AdvocateService advocateService;
